@@ -1,0 +1,19 @@
+Step 1: Install Java JDK
+Download and install the Java Development Kit (JDK) from the official Oracle website. After installing, 
+  set the environment variable (add the JDK’s bin folder path to the system’s PATH variable) so that
+  you can use Java commands like javac and java in CMD. You can check if it’s working by typing java -version and javac -version in Command Prompt.
+ Step 2: Write and Save the Java Program
+Open Notepad or any text editor and write a simple Java program like this:
+code:
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+Save the file as HelloWorld.java (make sure the file name matches the class name exactly). Save it in a folder like C:\JavaPrograms.
+ Step 3: Compile and Run the Program in CMD
+Open Command Prompt and navigate to the folder where your file is saved using the cd command (e.g., cd C:\JavaPrograms).
+  Then type javac HelloWorld.java to compile the program. If there are no errors, it will create a HelloWorld.class file.
+  Next, type java HelloWorld to run the program. You should see the output:
+output:
+Hello, World!
